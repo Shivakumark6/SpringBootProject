@@ -24,13 +24,13 @@ class SubmissionServiceImplTest {
     @BeforeEach
     void setUp() {
         // Submission Request
-        submissionRequest.setName("niha");
+        submissionRequest.setName("Shiva");
         submissionRequest.setRate(90);
         submissionRequest.setVendor("TCS");
         submissionRequest.setImplementation("Wipro");
         submissionRequest.setTech("Java");
-        submissionRequest.setLead("Sagar");
-        submissionRequest.setVendorEmail("niha@gmail.com");
+        submissionRequest.setLead("Vinay");
+        submissionRequest.setVendorEmail("Shiva@gmail.com");
         submissionRequest.setStatus(Status.OFFERED);
 
         submissionService=new SubmissionServiceImpl();
